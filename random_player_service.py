@@ -7,7 +7,7 @@ from jass.agents.agent_random_schieber import AgentRandomSchieber
 def configure_logging():
     """Set up logging configuration."""
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    logger = logging.getLogger('player_service')
+    logger = logging.getLogger('random_player_service')
     return logger
 
 logger = configure_logging()
