@@ -1,0 +1,4 @@
+flask
+jass-kit
+logging
+numpy
