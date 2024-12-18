@@ -2,3 +2,4 @@ flask
 jass-kit
 logging
 numpy
+tensorflow
