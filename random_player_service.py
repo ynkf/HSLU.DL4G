@@ -22,7 +22,7 @@ def create_app() -> PlayerServiceApp:
     """Create and configure the Flask app."""
     app = PlayerServiceApp('random_player_service')
     
-    app.add_player('rule', AgentRandomSchieber())
+    app.add_player('random', AgentRandomSchieber())
 
     app.before_request(log_request_info)
 
